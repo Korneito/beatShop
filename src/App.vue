@@ -1,6 +1,6 @@
 <template>
   <div class="min-h-screen flex flex-col justify-between bg-zinc-900 text-white">
-    <header>
+    <header class="mb-15">
       <Navbar/>
     </header>
     <main class="pt-6">
