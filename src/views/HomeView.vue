@@ -1,6 +1,6 @@
 <template>
   <div  class="flex justify-center w-full">
-    <div class="grid grid-cols-4 gap-6 flex-col gap-6">
+    <div class="grid grid-cols-1 gap-6 flex-col gap-6">
       <BeatCard v-for="beat in beatStore.beats" :key="beat.id" :beat="beat"/>
     </div>
   </div>

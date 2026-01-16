@@ -12,7 +12,7 @@
       <div class="flex flex-col gap-2  bg-zinc-900 text-white mt-20 rounded-2xl p-50">
       <CartItem v-for="item in beatStore.cart" :key = "item.id" :item="item"/>
         <p class="text-white text-2xl ">
-          Total: {{beatStore.cart.reduce((acc, curr) => acc + curr.price, 0)}} €
+          Total: {{beatStore.cart.reduce((acc, curr) => acc + curr.price, 0).toFixed(2)}} €
         </p>
       </div>
       <div class="flex flex-col gap-2  bg-zinc-900 text-white mt-20 rounded-2xl p-50">
