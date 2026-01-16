@@ -15,7 +15,6 @@
           <img src="/cart.png" alt="contact" class="w-20 h-20 ml-10 mr-10">
         </router-link>
       </div>
-
     </nav>
 </template>
 

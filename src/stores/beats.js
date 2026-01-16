@@ -23,15 +23,25 @@ export const useBeatStore = defineStore('beats', {
 
         ],
         cart: [
-
+            {id: 15, title: 'test15', price: 25.99},
         ]
     }),
     getters: {
 
     },
     actions: {
-        increment() {
-            this.count++
+        addToCart(beat){
+            const exist = this.cart.find(item => item.id === beat.id)
+            if (!exist) {
+                this.cart.push(beat)
+            }
+
         },
+        clearCart(){
+            this.cart = []
+        },
+        removeFromCart(id){
+            this.cart = this.cart.filter(item => item.id !== id)
+        }
     },
 })

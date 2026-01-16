@@ -6,16 +6,25 @@
             <p class="pl-5">{{ beat.title }}</p>
         </div>
         <div class="flex items-center justify-center w-full p-10">
-            {{ beat.price }}
+            <p>{{ beat.price }}</p>
+          <button @click ="beatStore.addToCart(beat)" class="bg-red-600 p-3 m-2">TO CART</button>
         </div>
+
     </div>
 </template>
 
 <script>
+  import {useBeatStore} from "@/stores/beats.js";
+
   export default {
     name: "BeatCard",
     props: {
       beat: {type: Object,required: true},
+    },
+    data() {
+      return {
+        beatStore: useBeatStore()
+      }
     }
   }
 </script>

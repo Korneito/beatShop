@@ -6,7 +6,6 @@
           <p>
             If you want to collaborate, buy exlusive beats or ask something - write me.
           </p>
-
           <form class="flex flex-col justify-center items-center w-full">
             <input type="text" placeholder="Your name" class ="w-150 p-3 m-3 rounded bg-zinc-800 text-white border-5 border-zinc-700 focus:border-red-500">
             <input type="email" placeholder="Your email" class ="w-150 p-3 m-3 rounded bg-zinc-800 text-white border-5 border-zinc-700 focus:border-red-500">
