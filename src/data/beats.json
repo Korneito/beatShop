@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "title": "Midnight Drift",
+    "price": 19.99,
+    "badge": "NEW",
+    "audio": "/beatShop/audio/mozart-alla-turca.mp3"
+  },
+  {
+    "id": 2,
+    "title": "Neon Samurai",
+    "price": 29.99,
+    "badge": "HOT🔥",
+    "audio": "/beatShop/audio/mozart-alla-turca.mp3"
+  },
+  {
+    "id": 3,
+    "title": "Cold Streets",
+    "price": 17.50,
+    "audio": "/beatShop/audio/mozart-alla-turca.mp3"
+  },
+  {
+    "id": 4,
+    "title": "Shadow Pulse",
+    "price": 24.99,
+    "badge": "HOT🔥",
+    "audio": "/beatShop/audio/mozart-alla-turca.mp3"
+  },
+  {
+    "id": 5,
+    "title": "VKRNNK Anthem",
+    "price": 34.99,
+    "badge": "EXCLUSIVE",
+    "audio": "/beatShop/audio/mozart-alla-turca.mp3"
+  },
+  {
+    "id": 6,
+    "title": "Toxic Skyline",
+    "price": 21.49,
+    "audio": "/beatShop/audio/mozart-alla-turca.mp3"
+  },
+  {
+    "id": 7,
+    "title": "Nightcrawler",
+    "price": 27.00,
+    "badge": "HOT🔥",
+    "audio": "/beatShop/audio/mozart-alla-turca.mp3"
+  },
+  {
+    "id": 8,
+    "title": "Ghost Runner",
+    "price": 18.99,
+    "audio": "/beatShop/audio/mozart-alla-turca.mp3"
+  },
+  {
+    "id": 9,
+    "title": "Cyber Blood",
+    "price": 31.99,
+    "badge": "HOT🔥",
+    "audio": "/beatShop/audio/mozart-alla-turca.mp3"
+  },
+  {
+    "id": 10,
+    "title": "Red Horizon",
+    "price": 22.50,
+    "audio": "/beatShop/audio/mozart-alla-turca.mp3"
+  },
+  {
+    "id": 11,
+    "title": "Voltage Dreams",
+    "price": 26.99,
+    "badge": "NEW",
+    "audio": "/beatShop/audio/mozart-alla-turca.mp3"
+  },
+  {
+    "id": 12,
+    "title": "Broken Signal",
+    "price": 15.99,
+    "audio": "/beatShop/audio/mozart-alla-turca.mp3"
+  },
+  {
+    "id": 13,
+    "title": "Dark Alley",
+    "price": 19.49,
+    "audio": "/beatShop/audio/mozart-alla-turca.mp3"
+  },
+  {
+    "id": 14,
+    "title": "Chrome Tears",
+    "price": 28.99,
+    "badge": "SALE",
+    "audio": "/beatShop/audio/mozart-alla-turca.mp3"
+  },
+  {
+    "id": 15,
+    "title": "Blood Circuit",
+    "price": 33.50,
+    "badge": "HOT🔥",
+    "audio": "/beatShop/audio/mozart-alla-turca.mp3"
+  }
+]
