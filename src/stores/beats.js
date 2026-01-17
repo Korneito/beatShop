@@ -19,12 +19,8 @@ export const useBeatStore = defineStore('beats', {
         { id: 13, title: 'Dark Alley',     price: 19.49 },
         { id: 14, title: 'Chrome Tears',   price: 28.99, badge: 'SALE' },
         { id: 15, title: 'Blood Circuit',  price: 33.50, badge: 'HOT🔥' },
-
-
-
         ],
         cart: [
-            {id: 15, title: 'test15', price: 25.99},
         ]
     }),
     getters: {
@@ -41,8 +37,11 @@ export const useBeatStore = defineStore('beats', {
         clearCart(){
             this.cart = []
         },
-        removeFromCart(id){
+        removeFromCart(id) {
             this.cart = this.cart.filter(item => item.id !== id)
+        },
+        removeBeat(id){
+            this.beats = this.beats.filter(beat => beat.id !== id)
         }
     },
 })

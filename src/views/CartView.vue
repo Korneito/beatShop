@@ -52,10 +52,15 @@ export default {
           alert("Please fill in a valid name");
           return;
         }
+
+
       alert(`Thanks for your order, ${this.name} ${this.surname}! The materials will be sent to your email: ${this.email}`);
       this.name = "";
       this.surname = "";
       this.email = "";
+      this.beatStore.cart.forEach(item=>{
+        this.beatStore.removeBeat(item.id);
+      })
       this.beatStore.clearCart()
     }
   }
